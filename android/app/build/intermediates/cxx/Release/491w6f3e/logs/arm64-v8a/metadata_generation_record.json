@@ -1,0 +1,119 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a\u0027",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a\u0027",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /home/ubuntu/Android/Sdk/cmake/3.22.1/bin/cmake \\\n  -H/home/ubuntu/coding/OdysseyDecomp/android \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d24 \\\n  -DANDROID_PLATFORM\u003dandroid-24 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/ubuntu/Android/Sdk/cmake/3.22.1/bin/ninja \\\n  \"-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17 -fno-exceptions -fno-rtti\" \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n  -B/home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a \\\n  -GNinja \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DCMAKE_BUILD_TYPE\u003dRelease\n",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/home/ubuntu/Android/Sdk/cmake/3.22.1/bin/cmake \\\n  -H/home/ubuntu/coding/OdysseyDecomp/android \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d24 \\\n  -DANDROID_PLATFORM\u003dandroid-24 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/ubuntu/Android/Sdk/cmake/3.22.1/bin/ninja \\\n  \"-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17 -fno-exceptions -fno-rtti\" \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n  -B/home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a \\\n  -GNinja \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DCMAKE_BUILD_TYPE\u003dRelease\n",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 255",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: C++ build system [configure] failed while executing:\n    /home/ubuntu/Android/Sdk/cmake/3.22.1/bin/cmake \\\n      -H/home/ubuntu/coding/OdysseyDecomp/android \\\n      -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n      -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n      -DCMAKE_SYSTEM_VERSION\u003d24 \\\n      -DANDROID_PLATFORM\u003dandroid-24 \\\n      -DANDROID_ABI\u003darm64-v8a \\\n      -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n      -DANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n      -DCMAKE_ANDROID_NDK\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653 \\\n      -DCMAKE_TOOLCHAIN_FILE\u003d/home/ubuntu/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake \\\n      -DCMAKE_MAKE_PROGRAM\u003d/home/ubuntu/Android/Sdk/cmake/3.22.1/bin/ninja \\\n      \"-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17 -fno-exceptions -fno-rtti\" \\\n      -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n      -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/cxx/Release/491w6f3e/obj/arm64-v8a \\\n      -B/home/ubuntu/coding/OdysseyDecomp/android/app/.cxx/Release/491w6f3e/arm64-v8a \\\n      -GNinja \\\n      -DANDROID_STL\u003dc++_shared \\\n      -DCMAKE_BUILD_TYPE\u003dRelease\n  from /home/ubuntu/coding/OdysseyDecomp/android/app\nx86_64-binfmt-P: Could not open \u0027/lib64/ld-linux-x86-64.so.2\u0027: No such file or directory",
+    "file_": "/home/ubuntu/coding/OdysseyDecomp/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

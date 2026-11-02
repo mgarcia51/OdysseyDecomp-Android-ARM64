@@ -1,0 +1,8 @@
+# ninja log v5
+1	2184	1793644217121032695	CMakeFiles/odyssey_main.dir/home/ubuntu/coding/OdysseyDecomp/src/renderer/vulkan/VulkanRenderer.cpp.o	58ee85f687211979
+1	710	1793644215651025844	CMakeFiles/odyssey_main.dir/home/ubuntu/coding/OdysseyDecomp/src/platform/android/JNIWrapper.cpp.o	e52c9eb5b4733ac8
+0	444	1793644215385024605	CMakeFiles/odyssey_main.dir/home/ubuntu/coding/OdysseyDecomp/src/platform/android/AndroidMain.cpp.o	3dc1532b950c7b92
+0	70	1793644342850742646	build.ninja	2a67fc008b0ef6ee
+0	207	1793644215147023496	CMakeFiles/odyssey_main.dir/home/ubuntu/coding/OdysseyDecomp/src/platform/android/AndroidPlatform.cpp.o	b435510fd113da95
+3	143	1793644215083023197	CMakeFiles/odyssey_main.dir/home/ubuntu/Android/Sdk/ndk/25.2.9519653/sources/android/native_app_glue/android_native_app_glue.c.o	f4ccd1d003d93c14
+1	40	1793644243022153403	libodyssey_main.so	1a6ff2a3072fdcdb

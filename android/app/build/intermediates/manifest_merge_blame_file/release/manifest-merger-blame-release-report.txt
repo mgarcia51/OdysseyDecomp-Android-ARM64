@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.odysseydecomp.game"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:8:5-66
+12-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:8:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:9:5-67
+13-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:9:22-64
+14    <uses-permission
+14-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:10:5-108
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:10:22-78
+16        android:maxSdkVersion="32" />
+16-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:10:79-105
+17    <uses-permission
+17-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:11:5-107
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:11:22-77
+19        android:maxSdkVersion="32" />
+19-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:11:78-104
+20
+21    <!-- Features -->
+22    <uses-feature
+22-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:14:5-121
+23        android:name="android.hardware.vulkan.version"
+23-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:14:19-65
+24        android:required="true"
+24-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:14:95-118
+25        android:version="0x00401000" />
+25-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:14:66-94
+26    <uses-feature
+26-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:15:5-89
+27        android:name="android.hardware.touchscreen"
+27-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:15:19-62
+28        android:required="true" />
+28-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:15:63-86
+29    <uses-feature
+29-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:16:5-86
+30        android:name="android.hardware.gamepad"
+30-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:16:19-58
+31        android:required="false" />
+31-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:16:59-83
+32
+33    <application
+33-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:18:5-44:19
+34        android:allowBackup="false"
+34-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:19:9-36
+35        android:appCategory="game"
+35-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:24:9-35
+36        android:extractNativeLibs="true"
+36-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:25:9-41
+37        android:fullBackupOnly="false"
+37-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:20:9-39
+38        android:hasCode="true"
+38-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:23:9-31
+39        android:icon="@mipmap/ic_launcher"
+39-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:21:9-43
+40        android:label="OdysseyDecomp" >
+40-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:22:9-38
+41        <activity
+41-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:27:9-43:20
+42            android:name="com.odysseydecomp.game.MainActivity"
+42-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:28:13-63
+43            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize|uiMode"
+43-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:30:13-113
+44            android:exported="true"
+44-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:34:13-36
+45            android:label="OdysseyDecomp"
+45-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:29:13-42
+46            android:launchMode="singleInstance"
+46-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:32:13-48
+47            android:screenOrientation="sensorLandscape"
+47-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:31:13-56
+48            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+48-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:33:13-71
+49
+50            <!-- Tell NativeActivity the name of the shared object file -->
+51            <meta-data
+51-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:37:13-91
+52                android:name="android.app.lib_name"
+52-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:37:24-59
+53                android:value="odyssey_main" />
+53-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:37:60-88
+54
+55            <intent-filter>
+55-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:39:13-42:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:40:17-69
+56-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:40:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:41:17-77
+58-->/home/ubuntu/coding/OdysseyDecomp/android/AndroidManifest.xml:41:27-74
+59            </intent-filter>
+60        </activity>
+61    </application>
+62
+63</manifest>

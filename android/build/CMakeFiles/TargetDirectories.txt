@@ -1,0 +1,3 @@
+/home/ubuntu/coding/OdysseyDecomp/android/build/CMakeFiles/odyssey_main.dir
+/home/ubuntu/coding/OdysseyDecomp/android/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/coding/OdysseyDecomp/android/build/CMakeFiles/rebuild_cache.dir

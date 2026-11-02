@@ -1,0 +1,7 @@
+com.odysseydecomp.game.app-pngs-0 /home/ubuntu/coding/OdysseyDecomp/android/app/build/generated/res/pngs/release
+com.odysseydecomp.game.app-resValues-1 /home/ubuntu/coding/OdysseyDecomp/android/app/build/generated/res/resValues/release
+com.odysseydecomp.game.app-packageReleaseResources-2 /home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.odysseydecomp.game.app-packageReleaseResources-3 /home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.odysseydecomp.game.app-merged_res-4 /home/ubuntu/coding/OdysseyDecomp/android/app/build/intermediates/merged_res/release
+com.odysseydecomp.game.app-app-5 /home/ubuntu/coding/OdysseyDecomp/android/app/res
+com.odysseydecomp.game.app-release-6 /home/ubuntu/coding/OdysseyDecomp/android/app/src/release/res

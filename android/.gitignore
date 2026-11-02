@@ -1,0 +1,65 @@
+# Build Artifacts
+/app/build/
+/app/build-intermediates/
+/app/build/generated/
+/app/build/outputs/
+build/
+build-*
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+app/build/
+
+# Native Build
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.o
+*.so
+*.a
+*.dylib
+android_app_glue.c
+
+# APKs
+*.apk
+*.ap_
+*.aab
+
+# Dependencies
+*.gradle.kts
+!gradle/wrapper/gradle-wrapper.properties
+
+# Logs
+*.log
+adb.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+.caches/
+
+# Vulkan
+*.spv
+shaders/bin/
+
+# Pipeline Caches
+pipeline.cache
+*
