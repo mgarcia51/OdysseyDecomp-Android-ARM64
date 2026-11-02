@@ -1,0 +1,367 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Android - 1 - aarch64
+      The host system is: Linux - 6.17.0-1020-oracle - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: -c;--target=aarch64-none-linux-android24 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags:  
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: -c 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: --c++ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: --ec++ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-O3;-flto;-fvisibility=hidden;-fPIC;-fno-exceptions;-fno-rtti
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: -c;--target=aarch64-none-linux-android24 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      2
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-eHWfYX"
+      binary: "/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-eHWfYX"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-24"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android24"
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -O3 -flto -fvisibility=hidden -fPIC -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android24"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-eHWfYX'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74cfb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_74cfb.dir/build.make CMakeFiles/cmTC_74cfb.dir/build
+        gmake[1]: Entering directory '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-eHWfYX'
+        Building CXX object CMakeFiles/cmTC_74cfb.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -O3 -flto -fvisibility=hidden -fPIC -fno-exceptions -fno-rtti  -o CMakeFiles/cmTC_74cfb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+        gmake[1]: *** [CMakeFiles/cmTC_74cfb.dir/build.make:78: CMakeFiles/cmTC_74cfb.dir/CMakeCXXCompilerABI.cpp.o] Error 2
+        gmake[1]: Leaving directory '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-eHWfYX'
+        gmake: *** [Makefile:127: cmTC_74cfb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CXX compiler: /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    directories:
+      source: "/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6"
+      binary: "/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-24"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android24"
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -flto -fvisibility=hidden -fPIC -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android24"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f039/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f039.dir/build.make CMakeFiles/cmTC_7f039.dir/build
+        gmake[1]: Entering directory '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6'
+        Building CXX object CMakeFiles/cmTC_7f039.dir/testCXXCompiler.cxx.o
+        /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -flto -fvisibility=hidden -fPIC -fno-exceptions -fno-rtti  -o CMakeFiles/cmTC_7f039.dir/testCXXCompiler.cxx.o -c /workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6/testCXXCompiler.cxx
+        /opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++: 1: Syntax error: "(" unexpected
+        gmake[1]: *** [CMakeFiles/cmTC_7f039.dir/build.make:78: CMakeFiles/cmTC_7f039.dir/testCXXCompiler.cxx.o] Error 2
+        gmake[1]: Leaving directory '/workspace/OdysseyDecomp/build_android/CMakeFiles/CMakeScratch/TryCompile-3eEvB6'
+        gmake: *** [Makefile:127: cmTC_7f039/fast] Error 2
+        
+      exitCode: 2
+...
