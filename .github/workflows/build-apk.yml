@@ -62,6 +62,8 @@ jobs:
         echo "PATH=$PATH"
         ls -la $ANDROID_NDK_HOME
         ls -la $ANDROID_HOME/platforms
+        ls -la app/
+        cat app/build.gradle
         
     - name: Build with Gradle
       run: gradle assembleRelease --no-daemon --stacktrace
