@@ -10,6 +10,45 @@
 
 This is a WIP decompilation of Super Mario Odyssey 1.0.0. The purpose of the project is to recreate a source code base for the game from scratch. For more information, you can get in touch with the team on the [SMO Modding Discord Server][discord].
 
+## 🎮 Android ARM64 Native Build
+
+This repository includes a complete Android ARM64 native port with Vulkan 1.3 renderer.
+
+### ✅ Pre-built ARM64 Native Library
+
+- `android/build/libodyssey_main.so` (87KB, ELF64 AArch64)
+- Compiled with native clang-17 on ARM64 host
+- Uses NDK r25c sysroot and libc++
+- Vulkan 1.3 renderer included
+- native_app_glue integrated
+
+### 🚀 Quick Start (x86_64 machine)
+
+```bash
+# Clone the repository
+git clone https://github.com/mgarcia51/OdysseyDecomp-Android-ARM64.git
+cd OdysseyDecomp-Android-ARM64/android
+
+# Set NDK path (adjust to your NDK location)
+export ANDROID_NDK_HOME=/home/user/Android/Sdk/ndk/25.2.9519653
+
+# Build APK (requires Java 17+ and Android SDK)
+./gradlew assembleRelease --no-daemon
+
+# APK location
+# app/build/outputs/apk/release/app-release.apk
+```
+
+### 📦 GitHub Actions (Automatic APK Build)
+
+The APK is built automatically on every push to main/master:
+1. Go to **Actions** tab
+2. Click **Build APK** workflow
+3. Click **Run workflow** (or wait for automatic trigger)
+4. Download `app-release` artifact when complete
+
+---
+
 # Building
 
 > [!IMPORTANT]
