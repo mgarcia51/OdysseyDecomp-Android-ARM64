@@ -54,6 +54,15 @@ jobs:
         unzip -q gradle-8.2-bin.zip
         echo "$(pwd)/gradle-8.2/bin" >> $GITHUB_PATH
         
+    - name: Debug environment
+      run: |
+        echo "ANDROID_HOME=$ANDROID_HOME"
+        echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+        echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME"
+        echo "PATH=$PATH"
+        ls -la $ANDROID_NDK_HOME
+        ls -la $ANDROID_HOME/platforms
+        
     - name: Build with Gradle
       run: gradle assembleRelease --no-daemon --stacktrace
       env:
