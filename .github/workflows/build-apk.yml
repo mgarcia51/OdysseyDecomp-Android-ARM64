@@ -56,14 +56,15 @@ jobs:
         
     - name: Debug environment
       run: |
+        set -x
         echo "ANDROID_HOME=$ANDROID_HOME"
         echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
         echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME"
         echo "PATH=$PATH"
-        ls -la $ANDROID_NDK_HOME
-        ls -la $ANDROID_HOME/platforms
-        ls -la app/
-        cat app/build.gradle
+        ls -la $ANDROID_NDK_HOME || echo "NDK not found"
+        ls -la $ANDROID_HOME/platforms || echo "Platforms not found"
+        ls -la app/ || echo "app dir not found"
+        cat app/build.gradle 2>/dev/null || echo "build.gradle not found"
         
     - name: Build with Gradle
       run: gradle assembleRelease --no-daemon --stacktrace
